@@ -1,4 +1,5 @@
 window.CALENDAR_DATA = {
+  {
   "generatedAt": "2026-07-07",
   "trip": {
     "start": "2026-10-09",
@@ -1921,4 +1922,4 @@ window.CALENDAR_DATA = {
       "reason": "Some pagination links led to 2025 listings. Those were intentionally ignored."
     }
   ]
-};
+}
