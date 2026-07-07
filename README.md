@@ -6,9 +6,12 @@ Trip window assumed: **October 9-21, 2026**. October 21 is marked as the departu
 ## What is included
 
 - A static, mobile-first calendar in `index.html`.
-- A new **Single day** tab with previous/next controls, a dropdown for each trip date, a horizontal day shortcut strip, and a focused daily event stack.
-- Filters for city, category, search text, LGBTQ+ / gay events only, free events, ongoing items, and programme-TBA platforms.
-- Color-coded categories shown in the category filters, the color key, event badges, event-card borders, per-day category groups, and full-trip category strips.
+- A redesigned day-first interface: choose a date first, then refine only as needed.
+- Dropdown navigation for view, focus, city, and category, replacing the previous overloaded chip-heavy controls.
+- A collapsible search/advanced-filter panel that scrolls with the page; there are no sticky modals or overlays covering the agenda.
+- A default one-day agenda with previous/next buttons, optional trip-day shortcuts, daily insight cards, and category-grouped event sections.
+- Color-coded categories shown in the color key, event badges, event-card borders, daily groups, trip overview strips, and active filter pills.
+- Focus presets for LGBTQ+ / Pride, music/nightlife, traditional culture, stage/arts, pop culture/interactive, Kyoto/Nara day trips, and free events.
 - Source links on every event card.
 - A downloadable `osaka-trip-events.ics` calendar file.
 - `data/events.json` for auditing or editing the event data.

@@ -3,118 +3,170 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#271442">
+  <meta name="theme-color" content="#221331">
   <title>Osaka Trip Event Calendar | Oct 9-21, 2026</title>
   <link rel="stylesheet" href="styles.css">
   <script src="events.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#dayView">Skip to single-day agenda</a>
-  <header class="hero">
-    <div class="hero__content">
-      <p class="eyebrow">Mobile-first trip planner</p>
-      <h1>Osaka, Kyoto &amp; Nara Event Calendar</h1>
-      <p class="lede">October 9-21, 2026, with LGBTQ+ / Pride events prioritized and every dated listing linked to a current source.</p>
-      <div class="hero__actions" aria-label="Primary actions">
-        <a class="button button--primary" href="osaka-trip-events.ics">Download .ics</a>
-        <a class="button" href="data/events.json">View event JSON</a>
-        <a class="button" href="#source-notes">Source notes</a>
-      </div>
+  <a class="skip-link" href="#dayView">Skip to agenda</a>
+
+  <header class="site-header">
+    <div class="site-header__copy">
+      <p class="eyebrow">Osaka trip planner</p>
+      <h1>Events in Osaka, Kyoto, and Nara</h1>
+      <p class="lede">A mobile-first event guide for October 9-21, 2026, with LGBTQ+ / Pride listings prioritized and every dated listing tied to a current source.</p>
     </div>
-    <aside class="hero__card" aria-label="Calendar summary">
-      <span class="big-number" id="event-count">0</span>
-      <span>confirmed or current-source entries</span>
-      <small>Last verified: <strong id="verified-date">2026-07-07</strong></small>
-    </aside>
+    <div class="site-header__actions" aria-label="Calendar actions">
+      <a class="button button--primary" href="osaka-trip-events.ics">Download .ics</a>
+      <a class="button" href="data/events.json">Event JSON</a>
+      <a class="button" href="#sourcesView" data-source-jump>Sources</a>
+    </div>
   </header>
 
   <main>
-    <section class="notice" aria-labelledby="assumption-heading">
-      <h2 id="assumption-heading">Assumptions and guardrails</h2>
-      <p><strong>Year:</strong> 2026. <strong>Trip base:</strong> Osaka, with day-trip filters for Kyoto and Nara. <strong>Quality rule:</strong> unconfirmed or stale listings are kept out of the dated calendar and placed in the watch/omitted notes instead.</p>
-    </section>
-
-    <section class="filters" aria-label="Filters and view controls">
-      <label class="search-label" for="searchInput">Search events, venues, tags, or sources</label>
-      <input id="searchInput" class="search" type="search" placeholder="Try pride, Nara, music, free, escape, Billboard..." autocomplete="off">
-
-      <div class="filter-grid">
-        <fieldset>
-          <legend>Cities</legend>
-          <div id="cityFilters" class="chips"></div>
-        </fieldset>
-        <fieldset>
-          <legend>Categories</legend>
-          <div id="categoryFilters" class="chips chips--wrap"></div>
-        </fieldset>
-      </div>
-
-      <div class="toggles" aria-label="Quick filters">
-        <label><input type="checkbox" id="lgbtqOnly"> LGBTQ+ / gay events only</label>
-        <label><input type="checkbox" id="freeOnly"> Free only</label>
-        <label><input type="checkbox" id="hideOngoing"> Hide ongoing/background items</label>
-        <label><input type="checkbox" id="hideTbd"> Hide programme-TBA platforms</label>
-      </div>
-
-      <div class="view-tabs" role="tablist" aria-label="Calendar views">
-        <button type="button" class="tab is-active" role="tab" aria-selected="true" data-view="day">Single day</button>
-        <button type="button" class="tab" role="tab" aria-selected="false" data-view="calendar">Full trip</button>
-        <button type="button" class="tab" role="tab" aria-selected="false" data-view="list">List</button>
-        <button type="button" class="tab" role="tab" aria-selected="false" data-view="sources">Sources</button>
-      </div>
-
-      <div id="dayPicker" class="day-picker" aria-label="Single-day view selector">
-        <label for="daySelect">Show one day</label>
-        <div class="day-picker__controls">
-          <button type="button" class="mini-button" id="prevDay" aria-label="Previous trip day">Previous</button>
-          <select id="daySelect" class="day-select"></select>
-          <button type="button" class="mini-button" id="nextDay" aria-label="Next trip day">Next</button>
+    <section class="planner" aria-labelledby="planner-heading">
+      <div class="planner__summary">
+        <div>
+          <p class="eyebrow eyebrow--dark">Plan by day first</p>
+          <h2 id="planner-heading">Choose a day, then narrow the list</h2>
+        </div>
+        <div class="summary-metrics" aria-label="Calendar summary">
+          <span><strong id="event-count">0</strong> entries</span>
+          <span>Verified <strong id="verified-date">2026-07-07</strong></span>
         </div>
       </div>
 
-      <div id="dayStrip" class="day-strip" aria-label="Trip day shortcuts"></div>
+      <div class="day-control" aria-label="Day navigation">
+        <button type="button" class="nav-button" id="prevDay" aria-label="Previous trip day">&lsaquo;</button>
+        <label class="select-field select-field--day" for="daySelect">
+          <span>Single-day agenda</span>
+          <select id="daySelect"></select>
+        </label>
+        <button type="button" class="nav-button" id="nextDay" aria-label="Next trip day">&rsaquo;</button>
+      </div>
 
-      <details class="category-key" open>
-        <summary>Category color key</summary>
-        <div id="categoryLegend" class="category-legend" aria-label="Category color legend"></div>
+      <div class="selector-grid" aria-label="Main controls">
+        <label class="select-field" for="viewSelect">
+          <span>View</span>
+          <select id="viewSelect">
+            <option value="day">One day</option>
+            <option value="trip">Trip overview</option>
+            <option value="list">All matching events</option>
+            <option value="sources">Sources and watchlist</option>
+          </select>
+        </label>
+
+        <label class="select-field" for="focusSelect">
+          <span>Focus</span>
+          <select id="focusSelect">
+            <option value="all">All interests</option>
+            <option value="lgbtq">LGBTQ+ / Pride only</option>
+            <option value="music">Music and nightlife</option>
+            <option value="culture">Traditional culture</option>
+            <option value="stage">Stage and arts</option>
+            <option value="pop">Pop culture and interactive</option>
+            <option value="daytrips">Kyoto / Nara day trips</option>
+            <option value="free">Free events</option>
+          </select>
+        </label>
+
+        <label class="select-field" for="citySelect">
+          <span>City</span>
+          <select id="citySelect"></select>
+        </label>
+
+        <label class="select-field" for="categorySelect">
+          <span>Category</span>
+          <select id="categorySelect"></select>
+        </label>
+      </div>
+
+      <div class="planner-actions">
+        <button type="button" class="mini-button" id="clearFilters">Reset filters</button>
+      </div>
+
+      <details class="refine-panel" id="refinePanel">
+        <summary>
+          <span>Search and advanced filters</span>
+          <small>No popups, no sticky overlay</small>
+        </summary>
+        <div class="refine-panel__body">
+          <label class="search-field" for="searchInput">
+            <span>Search events, venues, tags, or sources</span>
+            <input id="searchInput" type="search" placeholder="Try pride, Nara, music, free, escape, Billboard..." autocomplete="off">
+          </label>
+          <div class="check-grid" aria-label="Advanced filters">
+            <label><input type="checkbox" id="hideOngoing"> Hide ongoing/background items</label>
+            <label><input type="checkbox" id="hideTbd"> Hide programme-TBA platforms</label>
+          </div>
+          <details class="color-key">
+            <summary>Category color key</summary>
+            <div id="categoryLegend" class="category-legend" aria-label="Category color legend"></div>
+          </details>
+        </div>
       </details>
 
+      <div class="active-filters" id="activeFilters" aria-live="polite"></div>
       <p class="result-count" id="resultCount" aria-live="polite"></p>
+
+      <details class="day-jump">
+        <summary>Trip day shortcuts</summary>
+        <div id="dayStrip" class="day-strip" aria-label="Trip day shortcuts"></div>
+      </details>
     </section>
 
-    <section id="dayView" class="day-view" aria-labelledby="day-heading">
-      <div class="day-view__header">
+    <section id="dayView" class="content-panel" aria-labelledby="day-heading">
+      <header class="view-header">
         <div>
-          <p class="eyebrow eyebrow--dark">Single-day agenda</p>
+          <p class="eyebrow eyebrow--dark">One-day view</p>
           <h2 id="day-heading">Selected day</h2>
-          <p id="daySummary" class="day-summary"></p>
+          <p id="daySummary" class="view-summary"></p>
         </div>
         <span class="count-badge count-badge--large" id="dayCount" aria-label="Events on selected day">0</span>
-      </div>
-      <div id="dayCategories" class="day-categories" aria-label="Category totals for selected day"></div>
-      <div id="dayAgenda" class="day-agenda"></div>
+      </header>
+      <div id="dayInsights" class="insight-grid" aria-label="Selected day summary"></div>
+      <div id="dayAgenda" class="agenda"></div>
     </section>
 
-    <section id="calendar" class="calendar-view hidden" aria-labelledby="calendar-heading">
-      <h2 id="calendar-heading">Full trip calendar</h2>
-      <div id="calendarGrid" class="calendar-grid"></div>
+    <section id="tripView" class="content-panel hidden" aria-labelledby="trip-heading">
+      <header class="view-header">
+        <div>
+          <p class="eyebrow eyebrow--dark">Trip overview</p>
+          <h2 id="trip-heading">Every day at a glance</h2>
+          <p class="view-summary">Use this for scanning. Open a day when you want the detailed agenda.</p>
+        </div>
+      </header>
+      <div id="tripGrid" class="trip-grid"></div>
     </section>
 
-    <section id="listView" class="list-view hidden" aria-labelledby="list-heading">
-      <h2 id="list-heading">Filtered event list</h2>
+    <section id="listView" class="content-panel hidden" aria-labelledby="list-heading">
+      <header class="view-header">
+        <div>
+          <p class="eyebrow eyebrow--dark">All matching events</p>
+          <h2 id="list-heading">Filtered event list</h2>
+          <p class="view-summary">A complete chronological list using the current filters.</p>
+        </div>
+      </header>
       <div id="eventList" class="event-list"></div>
     </section>
 
-    <section id="sourcesView" class="sources-view hidden" aria-labelledby="source-notes">
-      <h2 id="source-notes">Sources, watchlist, and intentionally omitted items</h2>
+    <section id="sourcesView" class="content-panel hidden" aria-labelledby="source-notes">
+      <header class="view-header">
+        <div>
+          <p class="eyebrow eyebrow--dark">Source notes</p>
+          <h2 id="source-notes">Sources, watchlist, and omissions</h2>
+          <p class="view-summary">Unconfirmed or stale listings are not placed on the dated calendar.</p>
+        </div>
+      </header>
       <div class="source-layout">
         <div>
           <h3>Primary sources used</h3>
           <div id="sourceList" class="source-list"></div>
         </div>
         <div>
-          <h3>Watch these closer to the trip</h3>
+          <h3>Watch closer to the trip</h3>
           <div id="watchList" class="source-list"></div>
           <h3>Omitted because not current for your dates</h3>
           <div id="omittedList" class="source-list"></div>
