@@ -1,10 +1,14 @@
 {
-  "eventCount": 64,
-  "lgbtqEventCount": 2,
+  "eventCount": 133,
+  "lgbtqEventCount": 10,
+  "programTbaCount": 20,
+  "icsEventCount": 104,
   "cities": [
     "Kyoto",
     "Nara",
-    "Osaka"
+    "Osaka",
+    "Osaka / Kyoto",
+    "Sakai"
   ],
   "categories": [
     "Arts Festival",
@@ -23,5 +27,8 @@
     "Theater / Performance",
     "Traditional Festival"
   ],
-  "generatedAt": "2026-07-07"
+  "generatedAt": "2026-07-07",
+  "tripStart": "2026-10-09",
+  "tripEnd": "2026-10-21",
+  "departure": "2026-10-21"
 }

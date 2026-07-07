@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#221331">
+  <meta name="theme-color" content="#241235">
   <title>Osaka Trip Event Calendar | Oct 9-21, 2026</title>
   <link rel="stylesheet" href="styles.css">
   <script src="events.js"></script>
@@ -16,13 +16,13 @@
     <div class="site-header__copy">
       <p class="eyebrow">Osaka trip planner</p>
       <h1>Events in Osaka, Kyoto, and Nara</h1>
-      <p class="lede">A mobile-first event guide for October 9-21, 2026, with LGBTQ+ / Pride listings prioritized and every dated listing tied to a current source.</p>
+      <p class="lede">A mobile-first, day-first event guide for October 9-21, 2026. LGBTQ+ / Pride listings are prioritized, and looser local leads are marked so you can filter them out.</p>
     </div>
-    <div class="site-header__actions" aria-label="Calendar actions">
+    <nav class="site-header__actions" aria-label="Calendar actions">
       <a class="button button--primary" href="osaka-trip-events.ics">Download .ics</a>
       <a class="button" href="data/events.json">Event JSON</a>
       <a class="button" href="#sourcesView" data-source-jump>Sources</a>
-    </div>
+    </nav>
   </header>
 
   <main>
@@ -47,7 +47,7 @@
         <button type="button" class="nav-button" id="nextDay" aria-label="Next trip day">&rsaquo;</button>
       </div>
 
-      <div class="selector-grid" aria-label="Main controls">
+      <div class="selector-grid" aria-label="Main calendar controls">
         <label class="select-field" for="viewSelect">
           <span>View</span>
           <select id="viewSelect">
@@ -67,7 +67,7 @@
             <option value="culture">Traditional culture</option>
             <option value="stage">Stage and arts</option>
             <option value="pop">Pop culture and interactive</option>
-            <option value="daytrips">Kyoto / Nara day trips</option>
+            <option value="daytrips">Kyoto / Nara / nearby day trips</option>
             <option value="free">Free events</option>
           </select>
         </label>
@@ -135,7 +135,7 @@
         <div>
           <p class="eyebrow eyebrow--dark">Trip overview</p>
           <h2 id="trip-heading">Every day at a glance</h2>
-          <p class="view-summary">Use this for scanning. Open a day when you want the detailed agenda.</p>
+          <p class="view-summary">Use this to scan the trip quickly. Open a day when you want the detailed agenda.</p>
         </div>
       </header>
       <div id="tripGrid" class="trip-grid"></div>
@@ -157,7 +157,7 @@
         <div>
           <p class="eyebrow eyebrow--dark">Source notes</p>
           <h2 id="source-notes">Sources, watchlist, and omissions</h2>
-          <p class="view-summary">Unconfirmed or stale listings are not placed on the dated calendar.</p>
+          <p class="view-summary">Watchlist items are useful planning leads. Programme-TBA platforms can be hidden from the calendar filters.</p>
         </div>
       </header>
       <div class="source-layout">
