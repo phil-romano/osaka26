@@ -1,0 +1,648 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OpenAI//Osaka Trip Event Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Osaka Trip Events Oct 2026
+X-WR-TIMEZONE:Asia/Tokyo
+BEGIN:VEVENT
+UID:rainbow-festa-2026@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:Rainbow Festa! 2026 / Osaka Pride Weekend
+LOCATION:Ogimachi Park - Ogimachi / Umeda - Osaka
+DESCRIPTION:Kansai Rainbow Festa returns to Ogimachi Park with stage programming\, booths\, community groups\, and Pride-weekend energy. Time: Oct 10 10:00-17:30\; Oct 11 10:00-17:00. Cost/status: Free admission. Source: https://japangayguide.com/event/rainbow-festa-osaka/. Last verified: 2026-07-07.
+URL:https://japangayguide.com/event/rainbow-festa-osaka/
+END:VEVENT
+BEGIN:VEVENT
+UID:kansai-rainbow-parade-20th@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Kansai Rainbow Parade 2026 - 20th Anniversary
+LOCATION:Ogimachi Park and parade route TBA - Ogimachi / Umeda - Osaka
+DESCRIPTION:The Kansai Rainbow Parade celebrates its 20th anniversary during Rainbow Festa weekend. Time: Festival day\; parade time/route TBA by organizer. Cost/status: Free. Source: https://japangayguide.com/event/rainbow-festa-osaka/. Last verified: 2026-07-07.
+URL:https://japangayguide.com/event/rainbow-festa-osaka/
+END:VEVENT
+BEGIN:VEVENT
+UID:osaka-fringe-2026@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Osaka Fringe 2026 / Osaka Culture Expo platform
+LOCATION:Multiple venues - Citywide - Osaka
+DESCRIPTION:A citywide open-access arts festival announced by the Osaka Convention and Tourism Bureau. Treat as a source to revisit once programme details publish. Time: Festival window Oct 8-Nov 8\; individual programme TBA. Cost/status: Varies. Source: https://octb.osaka-info.jp/news_common/. Last verified: 2026-07-07.
+URL:https://octb.osaka-info.jp/news_common/
+END:VEVENT
+BEGIN:VEVENT
+UID:fm802-minami-wheel-2026@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261013
+SUMMARY:FM802 MINAMI WHEEL 2026
+LOCATION:20+ live houses around Shinsaibashi - Shinsaibashi / Minami - Osaka
+DESCRIPTION:One of Osaka Minami's major live-house circuit festivals\, spread across more than 20 venues. Time: Three-day live-house circuit\; lineup/times by pass schedule. Cost/status: Ticket/pass required. Source: https://minamiwheel.jp/teaser.php. Last verified: 2026-07-07.
+URL:https://minamiwheel.jp/teaser.php
+END:VEVENT
+BEGIN:VEVENT
+UID:kishiwada-danjiri-october-2026@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:Kishiwada Danjiri Festival - October District Festival
+LOCATION:East Kishiwada\, Yagi\, Yamataki and other district areas - Kishiwada / south Osaka - Osaka
+DESCRIPTION:The October Kishiwada Danjiri festival covers multiple local districts south of central Osaka. Time: Oct 10 eve festival\; Oct 11 main festival. Cost/status: Free public viewing. Source: https://osaka-info.jp/special/dc/event/detail749/. Last verified: 2026-07-07.
+URL:https://osaka-info.jp/special/dc/event/detail749/
+END:VEVENT
+BEGIN:VEVENT
+UID:kyoto-music-expo-2026@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:Kyoto Music Expo 2026
+LOCATION:Umekoji Park Lawn Plaza - Umekoji - Kyoto
+DESCRIPTION:Outdoor music festival in Umekoji Park with Quruli and a multi-artist lineup. Time: Gate 10:00\; start 11:30. Cost/status: Ticket required. Source: https://ja.kyoto.travel/event/single.php?event_id=5272. Last verified: 2026-07-07.
+URL:https://ja.kyoto.travel/event/single.php?event_id=5272
+END:VEVENT
+BEGIN:VEVENT
+UID:usj-discover-u-25th@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Universal Studios Japan 25th Anniversary: Discover U!!!
+LOCATION:Universal Studios Japan - Bay Area - Osaka
+DESCRIPTION:Official 25th-anniversary programme running during the trip\, including special entertainment and anniversary experiences. Time: Park hours vary by date. Cost/status: Park ticket required. Source: https://www.usj.co.jp/web/en/us/25th-anniversary-discover-u. Last verified: 2026-07-07.
+URL:https://www.usj.co.jp/web/en/us/25th-anniversary-discover-u
+END:VEVENT
+BEGIN:VEVENT
+UID:parco-american-dream@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:PARCO Produce 2026: American Dream
+LOCATION:Morinomiya Piloti Hall - Morinomiya - Osaka
+DESCRIPTION:Stage production listed on Kyodo Osaka for Oct 8-12. Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:takashima-chisako-zawatsuku@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Takashima Chisako: Zawatsuku! Ongakukai 2026
+LOCATION:Osaka Castle Hall - Osaka Castle Park - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:yamashita-tatsuro-kyoto@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Tatsuro Yamashita Performance 2026
+LOCATION:ROHM Theatre Kyoto - Okazaki - Kyoto
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:kballet-swan-lake@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261011
+SUMMARY:K-BALLET TOKYO: Swan Lake
+LOCATION:Festival Hall - Nakanoshima - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:fujii-fumiya-arena@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Fumiya Fujii Arena Live 2026: Future Pixels
+LOCATION:Osaka Castle Hall - Osaka Castle Park - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-classic-sakai@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Disney on Classic: A Magical Night 2026 - Sakai
+LOCATION:Fenice Sakai - Sakai - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:hotei-kyoto@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:HOTEI: Rock and Soul Tour 2026
+LOCATION:ROHM Theatre Kyoto - Okazaki - Kyoto
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:zutomayo-nara@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261012
+SUMMARY:ZUTOMAYO: Legacy Zombie Labo - Bunka Denrai
+LOCATION:Heijo Palace Site special outdoor venue - Heijo Palace Site - Nara
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:orange-range-orix@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:ORANGE RANGE Live Tour 025-026
+LOCATION:ORIX Theater - Nishi-ku - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:lorna-shore-namba@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:LORNA SHORE Japan Tour 2026
+LOCATION:Namba Hatch - Namba - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:ishida-gumi-osaka@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Ishida-gumi Concert Tour 2026
+LOCATION:Osaka Castle Hall - Osaka Castle Park - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:taro-hakase-festival@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261013
+SUMMARY:Taro Hakase Concert Tour 2026
+LOCATION:Festival Hall - Nakanoshima - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:natori-grand-cube@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261013
+SUMMARY:Natori One-Man Live 2026
+LOCATION:Grand Cube Osaka - Nakanoshima - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:gusokumuzu-minoh@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Gusokumuzu One-Man Tour 2026
+LOCATION:Tokyo Tatemono Brillia Hall Minoh\, small hall - Minoh - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:osaka-shion-kyoto@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Osaka Shion Wind Orchestra - Dragon Quest Concert
+LOCATION:Kyoto Concert Hall - Kitayama - Kyoto
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:otoda-masanori-namba@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Masanori Otoda 30th Anniversary Tour
+LOCATION:Namba Hatch - Namba - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:cheeriemans-orix@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Cheeriemans Solo Performance
+LOCATION:ORIX Theater - Nishi-ku - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:disney-on-classic-kyoto@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Disney on Classic: A Magical Night 2026 - Kyoto
+LOCATION:ROHM Theatre Kyoto - Okazaki - Kyoto
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:nelke-bigcat@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:NELKE TOUR 2026
+LOCATION:BIGCAT - Shinsaibashi - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:mrchildren-osaka-castle@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261016
+SUMMARY:Mr.Children Tour 2026
+LOCATION:Osaka Castle Hall - Osaka Castle Park - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:yanagisawa-shingo-stage@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261018
+SUMMARY:Shingo Yanagisawa Festival Stage 2026
+LOCATION:Theater Drama City - Umeda - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:cloudy-shangrila@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Cloudy Tour 2026
+LOCATION:Umeda Shangri-La - Umeda - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:suri-gorilla@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Suri Tour 2026
+LOCATION:GORILLA HALL OSAKA - Suminoe - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:masayoshi-takanaka-osaka@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Masayoshi Takanaka 2026 Live
+LOCATION:Osaka Castle Outdoor Music Hall - Osaka Castle Park - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:moriyama-ryoko-festival@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Ryoko Moriyama Concert 2026
+LOCATION:Festival Hall - Nakanoshima - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:suspended4th-shangrila@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Suspended 4th Live 2026
+LOCATION:Umeda Shangri-La - Umeda - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:koji-tamaki-kyoto@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Koji Tamaki Concert 2026
+LOCATION:ROHM Theatre Kyoto - Okazaki - Kyoto
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:hayashibe-satoshi-festival@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Satoshi Hayashibe Concert 2026
+LOCATION:Festival Hall - Nakanoshima - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://kyodo-osaka.co.jp/calendar/202610. Last verified: 2026-07-07.
+URL:https://kyodo-osaka.co.jp/calendar/202610
+END:VEVENT
+BEGIN:VEVENT
+UID:billboard-kei-aran@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Billboard Live Osaka: Kei Aran 35th Live with Kazutaka Ishii
+LOCATION:Billboard Live Osaka\, HERBIS PLAZA ENT - Umeda - Osaka
+DESCRIPTION: Time: 1st stage 16:00\; 2nd stage 19:00. Cost/status: Ticket required. Source: https://www.billboard-live.com/osaka/schedules?month=2026-10-01. Last verified: 2026-07-07.
+URL:https://www.billboard-live.com/osaka/schedules?month=2026-10-01
+END:VEVENT
+BEGIN:VEVENT
+UID:billboard-nick-heyward@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Billboard Live Osaka: Nick Heyward
+LOCATION:Billboard Live Osaka\, HERBIS PLAZA ENT - Umeda - Osaka
+DESCRIPTION: Time: 1st stage 16:00\; 2nd stage 19:00. Cost/status: Ticket required. Source: https://www.billboard-live.com/osaka/schedules?month=2026-10-01. Last verified: 2026-07-07.
+URL:https://www.billboard-live.com/osaka/schedules?month=2026-10-01
+END:VEVENT
+BEGIN:VEVENT
+UID:billboard-woong-san@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Billboard Live Osaka: Woong San 30th Anniversary Japan Tour
+LOCATION:Billboard Live Osaka\, HERBIS PLAZA ENT - Umeda - Osaka
+DESCRIPTION: Time: 1st stage 17:30\; 2nd stage 20:30. Cost/status: Ticket required. Source: https://www.billboard-live.com/osaka/schedules?month=2026-10-01. Last verified: 2026-07-07.
+URL:https://www.billboard-live.com/osaka/schedules?month=2026-10-01
+END:VEVENT
+BEGIN:VEVENT
+UID:billboard-zard-acoustic@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261017
+SUMMARY:Billboard Live Osaka: ZARD Acoustic Live 2026
+LOCATION:Billboard Live Osaka\, HERBIS PLAZA ENT - Umeda - Osaka
+DESCRIPTION: Time: 1st stage 17:30\; 2nd stage 20:30. Cost/status: Ticket required. Source: https://www.billboard-live.com/osaka/schedules?month=2026-10-01. Last verified: 2026-07-07.
+URL:https://www.billboard-live.com/osaka/schedules?month=2026-10-01
+END:VEVENT
+BEGIN:VEVENT
+UID:billboard-lego-big-morl@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Billboard Live Osaka: LEGO BIG MORL 20th Anniversary Acoustic
+LOCATION:Billboard Live Osaka\, HERBIS PLAZA ENT - Umeda - Osaka
+DESCRIPTION: Time: 1st stage 15:00\; 2nd stage 18:00. Cost/status: Ticket required. Source: https://www.billboard-live.com/osaka/schedules?month=2026-10-01. Last verified: 2026-07-07.
+URL:https://www.billboard-live.com/osaka/schedules?month=2026-10-01
+END:VEVENT
+BEGIN:VEVENT
+UID:big-extinction-exhibition@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:Special Exhibition: The Big Five Mass Extinctions
+LOCATION:Osaka Museum of Natural History - Nagai - Osaka
+DESCRIPTION:Special exhibition tracing life evolution through the five major mass extinctions. Time: Museum hours\; final days during trip. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:real-escape-lab-ebisucho@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Real Escape Game: Escape from a Certain Laboratory
+LOCATION:Real Escape Game Osaka Ebisu-cho - Ebisu-cho / Shinsekai - Osaka
+DESCRIPTION:Long-running Real Escape Game revival listed through Oct 25. Time: Check source. Cost/status: Ticket required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:conan-real-escape-shinsaibashi@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:Detective Conan Real Escape Game: Escape from the Highway Chase
+LOCATION:Real Escape Game Osaka Shinsaibashi - Shinsaibashi - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Ticket required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:night-magic-school-hirakata-1011@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Night Escape from the Magic School - Hirakata Park
+LOCATION:Hirakata Park - Hirakata - Osaka
+DESCRIPTION: Time: 18:30 start. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:night-magic-school-hirakata-1012@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Night Escape from the Magic School - Hirakata Park
+LOCATION:Hirakata Park - Hirakata - Osaka
+DESCRIPTION: Time: 18:30 start. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:night-magic-school-hirakata-1017@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Night Escape from the Magic School - Hirakata Park
+LOCATION:Hirakata Park - Hirakata - Osaka
+DESCRIPTION: Time: 18:30 start. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:night-magic-school-hirakata-1018@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Night Escape from the Magic School - Hirakata Park
+LOCATION:Hirakata Park - Hirakata - Osaka
+DESCRIPTION: Time: 18:30 start. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:osaka-station-city-mystery@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Osaka Station City 15th Anniversary Mystery Game
+LOCATION:Osaka Station City - Umeda - Osaka
+DESCRIPTION:Self-guided mystery game listed by eplus through Nov 30. Time: Check source. Cost/status: Check source. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:fantane-namikiri@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Okaasan to Issho: Fantane! to Asobo PLUS
+LOCATION:Nankai Namikiri Hall - Kishiwada - Osaka
+DESCRIPTION: Time: 13:00 and 15:30. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:denjiro-science-toyonaka@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Denjiro Science Show - Toyonaka
+LOCATION:Toyonaka Performing Arts Center - Toyonaka - Osaka
+DESCRIPTION: Time: 12:00 and 14:30. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:denjiro-science-yao@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Denjiro Science Show - Yao
+LOCATION:Yao City Cultural Hall Prism Hall - Yao - Osaka
+DESCRIPTION: Time: 12:30 and 15:30. Cost/status: Ticket required. Source: https://eplus.jp/sf/event/month-10/kansai/osaka. Last verified: 2026-07-07.
+URL:https://eplus.jp/sf/event/month-10/kansai/osaka
+END:VEVENT
+BEGIN:VEVENT
+UID:harukas-sorameshi-bbq@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261019
+SUMMARY:Harukas Sora-meshi Rooftop BBQ
+LOCATION:Harukas 300 - Tennoji / Abeno - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Reservation / fee likely required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:hankyu-umeda-beer-garden@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261013
+SUMMARY:Hankyu Umeda Rooftop Beer Garden: Traveling Rooftop Beer Garden
+LOCATION:Hankyu Umeda Main Store - Umeda - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Reservation / fee likely required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:tenmabashi-yatai-bbq@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261019
+SUMMARY:Temmabashi Rooftop Festival Stall and BBQ Beer Garden
+LOCATION:Keihan City Mall - Temmabashi - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Reservation / fee likely required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:umeda-rooftop-beer-garden@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Umeda Great Hall Rooftop BBQ Beer Garden
+LOCATION:Ohatsu Tenjin shopping street area - Umeda - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Reservation / fee likely required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:dotonbori-water-walk@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Dotonbori Guided Water Walk by Parasol Boat
+LOCATION:Nihon City SUP Association - Dotonbori / Higashi-Yokobori - Osaka
+DESCRIPTION: Time: Check source. Cost/status: Reservation / fee required. Source: https://www.walkerplus.com/event_list/10/ar0727/. Last verified: 2026-07-07.
+URL:https://www.walkerplus.com/event_list/10/ar0727/
+END:VEVENT
+BEGIN:VEVENT
+UID:daianji-kannon-special-opening@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Daian-ji: Hidden Eleven-faced Kannon Special Opening
+LOCATION:Daian-ji Temple - Daianji - Nara
+DESCRIPTION:Autumn special opening listed for Oct 1-Nov 30. Time: Check source. Cost/status: Temple fee/donation may apply. Source: https://narashikanko.or.jp/event/detail_10351.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10351.html
+END:VEVENT
+BEGIN:VEVENT
+UID:nara-musikfest-platform@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261022
+SUMMARY:Nara for Culture / Musikfest Nara 2026
+LOCATION:Various venues - Prefecture-wide - Nara
+DESCRIPTION:Official Nara music/culture programme running May 1-Dec 31. Time: Programme varies by date. Cost/status: Varies. Source: https://narashikanko.or.jp/event/detail_10294.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10294.html
+END:VEVENT
+BEGIN:VEVENT
+UID:daimokutate-yahashira@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Daimokutate at Yahashira Shrine
+LOCATION:Yahashira Shrine - Kamitakawa-cho - Nara
+DESCRIPTION: Time: Check source. Cost/status: Free public viewing/check source. Source: https://narashikanko.or.jp/event/detail_10206.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10206.html
+END:VEVENT
+BEGIN:VEVENT
+UID:goryo-autumn-grand-festival@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Goryo Shrine Autumn Grand Festival / Togyoshiki
+LOCATION:Goryo Shrine - Naramachi - Nara
+DESCRIPTION: Time: Check source. Cost/status: Free public viewing/check source. Source: https://narashikanko.or.jp/event/detail_10344.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10344.html
+END:VEVENT
+BEGIN:VEVENT
+UID:todaiji-great-buddha-autumn@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Todai-ji Great Buddha Autumn Festival
+LOCATION:Todai-ji Temple - Nara Park - Nara
+DESCRIPTION: Time: 10:00 ceremony listed by Nara City Tourism. Cost/status: Temple admission/check source. Source: https://narashikanko.or.jp/event/detail_10227.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10227.html
+END:VEVENT
+BEGIN:VEVENT
+UID:kofukuji-nanendo-daihannya@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Kofuku-ji Nanendo: Daihannya-kyo Tendokue
+LOCATION:Kofuku-ji Temple\, Nanendo - Nara Park - Nara
+DESCRIPTION: Time: Special viewing 9:00-17:00\; ceremony 13:00. Cost/status: Check source. Source: https://narashikanko.or.jp/event/detail_10301.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10301.html
+END:VEVENT
+BEGIN:VEVENT
+UID:kangoku-shrine-reitaisai@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Kangoku Shrine Reitaisai Procession
+LOCATION:Kangoku Shrine - Nara city center - Nara
+DESCRIPTION: Time: 10:00 procession listed. Cost/status: Free public viewing/check source. Source: https://narashikanko.or.jp/event/detail_10346.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10346.html
+END:VEVENT
+BEGIN:VEVENT
+UID:toshodaiji-shaka-nenbutsu@osaka-trip-events-2026
+DTSTAMP:20260707T213650Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Toshodaiji Shaka Nenbutsu-e - Departure Day Option
+LOCATION:Toshodaiji Temple - Nishinokyo - Nara
+DESCRIPTION:Included as an optional departure-day item only because the trip leaves on Oct 21. Time: Begins Oct 21\; continues after departure. Cost/status: Temple admission/check source. Source: https://narashikanko.or.jp/event/detail_10228.html. Last verified: 2026-07-07.
+URL:https://narashikanko.or.jp/event/detail_10228.html
+END:VEVENT
+END:VCALENDAR

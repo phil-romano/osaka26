@@ -1,0 +1,27 @@
+{
+  "eventCount": 64,
+  "lgbtqEventCount": 2,
+  "cities": [
+    "Kyoto",
+    "Nara",
+    "Osaka"
+  ],
+  "categories": [
+    "Arts Festival",
+    "Club / Jazz / Live",
+    "Concert",
+    "Exhibition / Museum",
+    "Experience / Tour",
+    "Family / Pop Culture",
+    "Food / Seasonal",
+    "Interactive / Mystery",
+    "LGBTQ+ / Pride",
+    "Music Festival",
+    "Pop Culture / Theme Park",
+    "Temple / Shrine",
+    "Theater / Dance",
+    "Theater / Performance",
+    "Traditional Festival"
+  ],
+  "generatedAt": "2026-07-07"
+}

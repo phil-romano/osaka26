@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#271442">
+  <title>Osaka Trip Event Calendar | Oct 9-21, 2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="events.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#dayView">Skip to single-day agenda</a>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Mobile-first trip planner</p>
+      <h1>Osaka, Kyoto &amp; Nara Event Calendar</h1>
+      <p class="lede">October 9-21, 2026, with LGBTQ+ / Pride events prioritized and every dated listing linked to a current source.</p>
+      <div class="hero__actions" aria-label="Primary actions">
+        <a class="button button--primary" href="osaka-trip-events.ics">Download .ics</a>
+        <a class="button" href="data/events.json">View event JSON</a>
+        <a class="button" href="#source-notes">Source notes</a>
+      </div>
+    </div>
+    <aside class="hero__card" aria-label="Calendar summary">
+      <span class="big-number" id="event-count">0</span>
+      <span>confirmed or current-source entries</span>
+      <small>Last verified: <strong id="verified-date">2026-07-07</strong></small>
+    </aside>
+  </header>
+
+  <main>
+    <section class="notice" aria-labelledby="assumption-heading">
+      <h2 id="assumption-heading">Assumptions and guardrails</h2>
+      <p><strong>Year:</strong> 2026. <strong>Trip base:</strong> Osaka, with day-trip filters for Kyoto and Nara. <strong>Quality rule:</strong> unconfirmed or stale listings are kept out of the dated calendar and placed in the watch/omitted notes instead.</p>
+    </section>
+
+    <section class="filters" aria-label="Filters and view controls">
+      <label class="search-label" for="searchInput">Search events, venues, tags, or sources</label>
+      <input id="searchInput" class="search" type="search" placeholder="Try pride, Nara, music, free, escape, Billboard..." autocomplete="off">
+
+      <div class="filter-grid">
+        <fieldset>
+          <legend>Cities</legend>
+          <div id="cityFilters" class="chips"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Categories</legend>
+          <div id="categoryFilters" class="chips chips--wrap"></div>
+        </fieldset>
+      </div>
+
+      <div class="toggles" aria-label="Quick filters">
+        <label><input type="checkbox" id="lgbtqOnly"> LGBTQ+ / gay events only</label>
+        <label><input type="checkbox" id="freeOnly"> Free only</label>
+        <label><input type="checkbox" id="hideOngoing"> Hide ongoing/background items</label>
+        <label><input type="checkbox" id="hideTbd"> Hide programme-TBA platforms</label>
+      </div>
+
+      <div class="view-tabs" role="tablist" aria-label="Calendar views">
+        <button type="button" class="tab is-active" role="tab" aria-selected="true" data-view="day">Single day</button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-view="calendar">Full trip</button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-view="list">List</button>
+        <button type="button" class="tab" role="tab" aria-selected="false" data-view="sources">Sources</button>
+      </div>
+
+      <div id="dayPicker" class="day-picker" aria-label="Single-day view selector">
+        <label for="daySelect">Show one day</label>
+        <div class="day-picker__controls">
+          <button type="button" class="mini-button" id="prevDay" aria-label="Previous trip day">Previous</button>
+          <select id="daySelect" class="day-select"></select>
+          <button type="button" class="mini-button" id="nextDay" aria-label="Next trip day">Next</button>
+        </div>
+      </div>
+
+      <div id="dayStrip" class="day-strip" aria-label="Trip day shortcuts"></div>
+
+      <details class="category-key" open>
+        <summary>Category color key</summary>
+        <div id="categoryLegend" class="category-legend" aria-label="Category color legend"></div>
+      </details>
+
+      <p class="result-count" id="resultCount" aria-live="polite"></p>
+    </section>
+
+    <section id="dayView" class="day-view" aria-labelledby="day-heading">
+      <div class="day-view__header">
+        <div>
+          <p class="eyebrow eyebrow--dark">Single-day agenda</p>
+          <h2 id="day-heading">Selected day</h2>
+          <p id="daySummary" class="day-summary"></p>
+        </div>
+        <span class="count-badge count-badge--large" id="dayCount" aria-label="Events on selected day">0</span>
+      </div>
+      <div id="dayCategories" class="day-categories" aria-label="Category totals for selected day"></div>
+      <div id="dayAgenda" class="day-agenda"></div>
+    </section>
+
+    <section id="calendar" class="calendar-view hidden" aria-labelledby="calendar-heading">
+      <h2 id="calendar-heading">Full trip calendar</h2>
+      <div id="calendarGrid" class="calendar-grid"></div>
+    </section>
+
+    <section id="listView" class="list-view hidden" aria-labelledby="list-heading">
+      <h2 id="list-heading">Filtered event list</h2>
+      <div id="eventList" class="event-list"></div>
+    </section>
+
+    <section id="sourcesView" class="sources-view hidden" aria-labelledby="source-notes">
+      <h2 id="source-notes">Sources, watchlist, and intentionally omitted items</h2>
+      <div class="source-layout">
+        <div>
+          <h3>Primary sources used</h3>
+          <div id="sourceList" class="source-list"></div>
+        </div>
+        <div>
+          <h3>Watch these closer to the trip</h3>
+          <div id="watchList" class="source-list"></div>
+          <h3>Omitted because not current for your dates</h3>
+          <div id="omittedList" class="source-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Static GitHub Pages calendar. No trackers, no external JavaScript, no build step.</p>
+  </footer>
+</body>
+</html>
